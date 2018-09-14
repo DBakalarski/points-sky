@@ -1,0 +1,19 @@
+{
+  "name": "ski-points",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-distance": "mocha calculateDistancePoints.test.js",
+    "test-style": "mocha calculateStylePoints.test.js",
+    "test-total": "mocha calculateTotalPoints.test.js",
+    "test:watch": "onchange \"./*.js\" -- npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "onchange": "^4.1.0"
+  }
+}
